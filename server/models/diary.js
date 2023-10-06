@@ -37,7 +37,10 @@ class Diary {
         console.log("Model >");
         console.log(date, entry, category);
 
+        console.log("Entering db.query()");
+
         const response = await db.query("INSERT INTO diary (date, entry, category) VALUES ($1, $2, $3) RETURNING *;", [date, entry, category])
+
 
         console.log("Model >")
         console.log(response);
