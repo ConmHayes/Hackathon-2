@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="home.js" defer></script>
+    <title>Diary</title>
+</head>
+<body>
+    <h1>Logged in</h1>
+    <div class="container">
+    <form id="submitEntry">
+        <label for="category">Category: </label><br>
+        <input id="category" type="text" name="category"><br>
+        <label for="date">Date: </label><br>
+        <input type="date" id="date" name="date"><br><br>
+        <label for="entry">Entry: </label><br>
+        <textarea id="freeform" name="freeform" rows="4" cols="50" class="entry"></textarea><br><br>
+        <input type="submit" value="Submit Entry">
+    </form>
+
+    <p id="display"></p>
+    </div>
+</body>
+</html>

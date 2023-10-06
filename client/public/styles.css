@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: rgb(142, 203, 203);
+
+    margin: 20px;
+    height: auto;
+
+    text-align: center;
+}
+
+.entry {
+    height: 150px;
+    width: 500px;
+
+    margin: 5px;
+}
+
+input {
+    height: 35px;
+    width: 200px;
+
+    margin: 5px;
+}
+
+
+button {
+    width: 200px;
+    height: 35px;
+
+}
