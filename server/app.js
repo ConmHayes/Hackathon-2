@@ -5,7 +5,7 @@ const app = express()
 
 const path = require("path")
 
-//middlesware
+//middleware
 app.use(express.json())
 app.use(cors())
 app.use(logger)
